@@ -12,7 +12,7 @@ turtle.setup(600,600,0,0)               # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
-tina.speed(2)                           # Make the turtle move as fast, but not too fast.
+tina.speed(10)                           # Make the turtle move as fast, but not too fast.
 
 ##
 ## Move Tina to the Starting Position
@@ -27,7 +27,7 @@ tina.pendown()                          # Put the pen down so we can draw
 ##
 
 tina.pencolor('blue')                   # Set the pen color to blue
-tina.forward(200)                       # Move tina forward by the forward distance
+tina.forward(250)                       # Move tina forward by the forward distance
 tina.right(90)                          # Turn tina left by the left turn
 
 tina.pencolor('red')                    # Set the pen color to red
@@ -35,7 +35,7 @@ tina.forward(200)                       # Continue the last two steps three more
 tina.right(90)                          # to draw a square
 
 tina.pencolor('green')                  # Set the pen color to green
-tina.forward(200)
+tina.forward(250)
 tina.right(90)
 
 tina.pencolor('purple')                 # Set the pen color to purple
@@ -47,13 +47,13 @@ tina.right(90)
 ##
 
 tina.penup()     
-tina.goto(0, -75)
+tina.goto(0,-75 )
 tina.pendown()     
 
 tina.pendown()
 tina.color('red')                       # Set the color of tina to red
 tina.begin_fill()
-tina.circle(75)
+tina.circle(50)
 tina.end_fill()
 
 ##
@@ -65,7 +65,7 @@ tina.goto(-50, -150)
 tina.forward(20)                        # Move tina forward by 20
 tina.left(90)                           # Turn tina left by 90 degrees
 tina.forward(20)                        # Move tina forward by 20
-tina.write("Why, hello there!")         # Write the message "Why, hello there!"
+tina.write("Hey im casssiel! this was made in 2/25/2026")         # Write the message "Why, hello there"
 tina.backward(20)                       # Move tina backward by 20
 
 turtle.exitonclick()                    # Close the window when we click on it  
