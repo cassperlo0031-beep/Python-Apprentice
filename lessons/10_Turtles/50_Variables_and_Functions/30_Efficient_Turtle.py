@@ -29,12 +29,17 @@ draw_polygon(4)                        # Draw a pentagon
 
 tina.penup()
 tina.goto(200, 200)
-tina.pendown
+tina.pendown()
                                     # Move tina to another spot on the screen
 
 draw_polygon(5) 
 tina.penup()
-tina.goto(200, 0)
-tina.pendown                      # Draw a hexagon
+tina.goto(200, 100)                      # Draw a hexagon
+tina.pendown()
+
+draw_polygon(6)
+tina.penup
+tina.goto(200, 300)
+tina.pendown()
 
 turtle.exitonclick()                     # Close the window when we click on it
