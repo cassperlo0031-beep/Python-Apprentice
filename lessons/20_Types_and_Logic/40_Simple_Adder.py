@@ -20,3 +20,15 @@ at the comments and the code snippets in the previous lessons, like
 # Display the sum of the two numbers 
 
 # Keep the window open
+
+
+def convert_ml_to_imperial(ml):
+    # Conversion values
+    teaspoon_ml = 4.92892
+    tablespoon_ml = 3 * teaspoon_ml
+    cup_ml = 16 * tablespoon_ml
+    pint_ml = 2 * cup_ml
+    quart_ml = 2 * pint_ml
+    gallon_ml = 4 * quart_ml
+
+    
