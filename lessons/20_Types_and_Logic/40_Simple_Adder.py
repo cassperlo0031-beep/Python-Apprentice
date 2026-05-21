@@ -22,6 +22,9 @@ at the comments and the code snippets in the previous lessons, like
 # Keep the window open
 
 
+from tkinter import Tk, messagebox, simpledialog
+
+
 def convert_ml_to_imperial(ml):
     # Conversion values
     teaspoon_ml = 4.92892
@@ -31,4 +34,14 @@ def convert_ml_to_imperial(ml):
     quart_ml = 2 * pint_ml
     gallon_ml = 4 * quart_ml
 
-    
+window = Tk()     #
+window.withdraw()
+
+Number =  simpledialog.askfloat("Summing", "Enter the first number:")
+Number2 =  simpledialog.askfloat("Summing", "Enter the second number:")
+
+operator = simpledialog.askstring("choose","do you want addition or subtraction")
+if operator == "addition":
+    sum= Number + Number2
+    messagebox.showinfo("adding", str(sum))
+  
